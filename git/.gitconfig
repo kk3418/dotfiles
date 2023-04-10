@@ -1,0 +1,13 @@
+[user]
+	name = kevin.c
+	email = kevin345618@outlook.com
+[alias]
+	st = status
+	cm = commit
+	chk = checkout
+	brn = branch
+[diff]
+    tool = nvimdiff
+[difftool "nvimdiff"]
+    cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+
