@@ -9,7 +9,7 @@ vim.g["codegpt_commands"] = {
         jsx = "react functional component and use hooks",
         tsx = "react functional component and use hooks",
     },
-    temperature = "0.3",
+    temperature = 0.3,
     callback_type = "replace_lines",
   },
 }
