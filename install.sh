@@ -30,7 +30,6 @@ brew install ripgrep
 # stow dotfiles
 stow git
 stow nvim
-stow tmux
 stow zsh
 
 # install neovim plugins
