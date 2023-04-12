@@ -53,7 +53,6 @@ clh5() {
   git clone --depth 1 git@codelab.tcg.local:TSBU-WSD-WLC/tcg-module-shell.git --branch $1 mobile-$1
 }
 alias cdw="cd ~/tcg-work"
-alias npmsh="npm set registry https://registry.npmjs.org"
-alias npmsw="npm set registry http://10.8.90.199:9527" 
+alias npms-h="npm set registry https://registry.npmjs.org"
 alias npmg="npm get registry"
 
