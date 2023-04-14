@@ -114,7 +114,7 @@ else
   " set background=dark
   colorscheme dracula
   " Set color for search highlight
-  highlight Search guibg=#FFFFF0 guifg=NONE
+  highlight Search guibg=#FFFFF0 guifg=#000000
 
   set signcolumn=number
 endif
