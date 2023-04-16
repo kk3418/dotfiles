@@ -27,8 +27,8 @@ brew install neovim
 # Install Ripgrep
 brew install ripgrep
 
-# Install Node.js using NVM
-brew install nvm
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 source ~/.zshrc
 nvm install node
