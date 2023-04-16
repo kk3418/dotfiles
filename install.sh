@@ -33,9 +33,6 @@ brew install nvm
 source ~/.zshrc
 nvm install node
 
-# Install Yarn
-brew install yarn
-
 # stow dotfiles
 stow git
 stow nvim
@@ -47,4 +44,7 @@ nvim --headless +PlugInstall +qall
 npm install --global yarn
 # language server
 npm install --global typescript-language-server typescript vls
+
+# manually install powerlevel10k (without package manage tool ex: oh my zsh)
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
