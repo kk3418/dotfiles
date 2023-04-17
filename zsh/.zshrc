@@ -24,9 +24,11 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 
-export PATH="/Users/chao/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+if test -f "/Users/chao/.pyenv/bin"; then
+  export PATH="/Users/chao/.pyenv/bin:$PATH"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi
 
 # Setting PATH for Python 3.10
 # The original version is saved in .bash_profile.pysave
