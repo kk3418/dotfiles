@@ -46,5 +46,5 @@ npm install --global yarn
 npm install --global typescript-language-server typescript vls
 
 # manually install powerlevel10k (without package manage tool ex: oh my zsh)
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+git clone --depth 1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
