@@ -27,6 +27,9 @@ brew install neovim
 # Install Ripgrep
 brew install ripgrep
 
+# Install rm-improved
+brew install rm-improved
+
 # Install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
