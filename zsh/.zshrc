@@ -50,13 +50,8 @@ cc() {
 eval "$(zoxide init zsh)"
 
 # alias for work
-clweb() {
-  git clone --depth 1 git@codelab.tcg.local:TSBU-WSD-WLS/tcg-web-brand.git --branch $1 web-$1
-}
-clh5() {
-  git clone --depth 1 git@codelab.tcg.local:TSBU-WSD-WLC/tcg-module-shell.git --branch $1 mobile-$1
-}
-alias cdw="cd ~/tcg-work"
+alias link-test="stow -d ~/cypress -t ~/rgpay-admin -S rgpay-admin-test"
+
 alias npms-h="npm set registry https://registry.npmjs.org"
 alias npmg="npm get registry"
 
