@@ -1,13 +1,13 @@
 # Script Description
 
-The script `install_packages.sh` is a Bash script that installs several packages and tools using Homebrew on macOS.
+The script `install.sh` is a Bash script that installs several packages and tools using Homebrew on macOS.
 
 ## Usage
 
 To use the script, follow these steps:
 
 1. Open a terminal window.
-2. Navigate to the directory where you've saved the `install_packages.sh` script.
+2. Navigate to the directory where you've saved the `install.sh` script.
 3. Make the script executable by running the following command:
 ```
 chmod +x install_packages.sh

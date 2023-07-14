@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set up Zsh as the default shell
-sudo chsh -s /bin/zsh
+sudo chsh -s $(which zsh)
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -31,7 +31,7 @@ brew install ripgrep
 brew install rm-improved
 
 # Install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+brew install nvm
 
 source ~/.zshrc
 nvm install node
