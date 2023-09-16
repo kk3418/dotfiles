@@ -49,9 +49,6 @@ cc() {
 # zoxide
 eval "$(zoxide init zsh)"
 
-# alias for work
-alias link-test="stow -d ~/cypress -t ~/rgpay-admin -S rgpay-admin-test"
-
 alias npms-h="npm set registry https://registry.npmjs.org"
 alias npmg="npm get registry"
 
