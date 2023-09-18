@@ -10,8 +10,8 @@ To use the script, follow these steps:
 2. Navigate to the directory where you've saved the `install.sh` script.
 3. Make the script executable by running the following command:
 ```
-chmod +x install_packages.sh
-./install_packages.sh
+chmod +x install.sh
+./install.sh
 ```
 The script will do the following:
 
