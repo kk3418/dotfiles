@@ -31,7 +31,8 @@ brew install ripgrep
 brew install rm-improved
 
 # Install nvm
-brew install nvm
+git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
+source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
 source ~/.zshrc
 nvm install node
@@ -40,6 +41,10 @@ nvm install node
 stow git
 stow nvim
 stow zsh
+
+# vim-plug
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # install neovim plugins
 nvim --headless +PlugInstall +qall
