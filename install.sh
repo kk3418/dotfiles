@@ -30,6 +30,8 @@ brew install ripgrep
 # Install rm-improved
 brew install rm-improved
 
+brew install maccy
+
 # Install nvm
 git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh-nvm
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
@@ -55,4 +57,7 @@ npm install --global typescript-language-server typescript vls
 
 # manually install powerlevel10k (without package manage tool ex: oh my zsh)
 git clone --depth 1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+
+# Mac keyboard press issue
+defaults write -g ApplePressAndHoldEnabled -bool false
 
