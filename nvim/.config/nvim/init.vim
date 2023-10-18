@@ -102,7 +102,7 @@ else
 
   noremap dfs <cmd>diffthis
   noremap <leader>g <cmd>Git
-  noremap <leader>p <cmd>:Telescope find_files<CR>
+  noremap <leader>p <cmd>Telescope find_files<CR>
   noremap <leader>f <cmd>Telescope live_grep<CR>
   noremap <leader>b <cmd>Telescope buffers<CR>
   noremap <leader>nh <cmd>noh<CR>
