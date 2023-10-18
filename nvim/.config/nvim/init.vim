@@ -12,8 +12,9 @@ if exists('g:vscode')
   Plug 'asvetliakov/vim-easymotion', { 'as': 'vsc-easymotion' }
   call plug#end()
 
+  nnoremap <leader>f :call VSCodeNotify('editor.action.formatDocument')<CR>
   nnoremap <leader>p :call VSCodeNotify('workbench.action.quickOpen')<CR>
-  nnoremap <leader>f :call VSCodeNotify('workbench.action.findInFiles')<CR>
+  nnoremap <leader>F :call VSCodeNotify('workbench.action.findInFiles')<CR>
 else
   " ordinary neovim
   set title
