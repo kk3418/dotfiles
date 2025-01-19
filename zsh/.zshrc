@@ -22,11 +22,18 @@ export PATH="$HOME/.nvm/versions/node/$(nvm current)/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 
-if test -f "/Users/chao/.pyenv/bin"; then
-  export PATH="/Users/chao/.pyenv/bin:$PATH"
+# legacy, can be reomved
+if test -f "$HOME/.pyenv/bin"; then
+  export PATH="$HOME/.pyenv/bin:$PATH"
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
 fi
+
+export PATH="$HOME/.pyenv/shims:$PATH"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Setting PATH for Python 3.10
 # The original version is saved in .bash_profile.pysave
@@ -47,4 +54,8 @@ eval "$(zoxide init zsh)"
 
 alias npms-h="npm set registry https://registry.npmjs.org"
 alias npmg="npm get registry"
+alias npmp="pnpm"
+
+export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
 
