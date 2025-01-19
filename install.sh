@@ -27,6 +27,8 @@ brew install ripgrep
 # Install rm-improved
 brew install rm-improved
 
+brew install pnpm
+
 brew install maccy
 
 # Install nvm
@@ -39,8 +41,6 @@ nvm install node
 # stow dotfiles
 stow git
 stow zsh
-
-npm install --global yarn
 
 # manually install powerlevel10k (without package manage tool ex: oh my zsh)
 git clone --depth 1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
