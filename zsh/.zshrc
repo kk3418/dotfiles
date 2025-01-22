@@ -19,16 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/.nvm/versions/node/$(nvm current)/bin:$PATH"
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
-
-# legacy, can be reomved
-if test -f "$HOME/.pyenv/bin"; then
-  export PATH="$HOME/.pyenv/bin:$PATH"
-  eval "$(pyenv init -)"
-  eval "$(pyenv virtualenv-init -)"
-fi
-
 export PATH="$HOME/.pyenv/shims:$PATH"
 
 export PYENV_ROOT="$HOME/.pyenv"

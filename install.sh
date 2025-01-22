@@ -27,6 +27,8 @@ brew install ripgrep
 # Install rm-improved
 brew install rm-improved
 
+brew install pyenv
+
 brew install pnpm
 
 brew install maccy
