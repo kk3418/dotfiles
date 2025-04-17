@@ -56,3 +56,9 @@ cc() {
 # zoxide
 eval "$(zoxide init zsh)"
 
+# git operation
+gg() {
+  git --git-dir=$1/.git --work-tree=$1 $2
+}
+
+
