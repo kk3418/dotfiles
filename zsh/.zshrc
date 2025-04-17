@@ -42,5 +42,7 @@ cc() {
 # zoxide
 eval "$(zoxide init zsh)"
 
-alias npms-h="npm set registry https://registry.npmjs.org"
-alias npmg="npm get registry"
+# git operation
+gg() {
+  git --git-dir=$1/.git --work-tree=$1 $2
+}
