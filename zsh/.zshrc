@@ -56,10 +56,3 @@ cc() {
 # zoxide
 eval "$(zoxide init zsh)"
 
-alias npms-h="npm set registry https://registry.npmjs.org"
-alias npmg="npm get registry"
-alias npmp="pnpm"
-
-export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
-
