@@ -19,6 +19,8 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$HOME/.nvm/versions/node/$(nvm current)/bin:$PATH"
 
+export PATH="$HOME/script:$PATH"
+
 export PATH="$HOME/.pyenv/shims:$PATH"
 
 export PYENV_ROOT="$HOME/.pyenv"
