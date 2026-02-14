@@ -48,3 +48,11 @@ eval "$(zoxide init zsh)"
 gg() {
   git --git-dir=$1/.git --work-tree=$1 $2
 }
+
+alias npms-h="npm set registry https://registry.npmjs.org"
+alias npmg="npm get registry"
+alias npmp="pnpm"
+alias win="/Applications/Windsurf.app/Contents/MacOS/Electron"
+
+export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
