@@ -46,3 +46,6 @@ eval "$(zoxide init zsh)"
 gg() {
   git --git-dir=$1/.git --work-tree=$1 $2
 }
+
+alias win="/Applications/Windsurf.app/Contents/MacOS/Electron"
+
